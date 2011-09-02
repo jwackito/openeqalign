@@ -1,0 +1,34 @@
+#-*-coding:utf-8-*-
+###############################################################################
+#       Open Eq Align
+#           Programa de reemplazo para un ocular reticulado. Permite utilizar 
+#           una cámara web compatible con v4l2 para hacer alineación polar  de 
+#           una montura ecuatorial con el método de deriva (drift method) 
+#           superponiendo un retículo a la imagen devuelta por la cámara.
+#				
+#       Copyright (C) 2011  Joaquín Bogado <joaquinbogado en gmail.com>
+#       Version 1.0
+#
+#       This program is free software: you can redistribute it and/or modify
+#       it under the terms of the GNU General Public License as published by
+#       the Free Software Foundation, either version 3 of the License, or
+#       (at your option) any later version.
+#
+#       This program is distributed in the hope that it will be useful,
+#       but WITHOUT ANY WARRANTY; without even the implied warranty of
+#       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#       GNU General Public License for more details.
+#
+#       You should have received a copy of the GNU General Public License
+#       along with this program.  If not, see <http://www.gnu.org/licenses/>.
+###############################################################################
+
+Open Eq Align depende de los siguientes módulos de python:
+pygame
+pygame.camera
+argparse
+
+NOTA: pygame.camera es un módulo de pygame experimental disponible a partir 
+	de pygame 1.9.0. Su API puede cambiar, en cuyo caso, we are fracked!!
+	Probado con pygame 1.9.2.
+
